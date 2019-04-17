@@ -1,0 +1,113 @@
+{% extends 'post_list.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load staticfiles %}
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="{% static '/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <title>Fun Facts</title>
+</head>
+<body>
+    <div class="container"><!--main article div tag-->
+        <h2 align="center">Tiling Fun Facts </h2>
+        <article>
+            <div class="row">
+                <div class="col-sm-4"> <img src="/static/img/bamboo.jpg" class="float-left" style="margin-bottom: 2%" alt="Bamboo">
+                </div>
+                        <div class="col-sm-8"> <p style="font-size: 20px"> </br> 1. Bamboo is stronger than most hardwoods. In fact, some species 
+                                of bamboo have Janka hardness ratings that are higher than maple and nearly double
+                                 that of red oak. In Japan, bamboo is known for its incredible strength which is why
+                                 it’s used as industrial scaffolding. If you’re into martial arts, don’t use bamboo for your 
+                                board breaking demonstration. Things could get really awkward. (Source: America’s Floor Source)
+                            </p></br>
+                        </div>
+                      </div>
+       
+       
+        <p style="font-size: 20px">2. Almost all modern day electronic equipment relies on ceramic technology for their functioning. 
+            The computer or tablet on which you’re reading this article requires a network of ceramic
+             components such as insulators, resistors, and capacitors. Ceramics are also applied as 
+             insulators to protect outdoor electrical equipment. Quite simply, if it wasn’t for ceramic 
+             technology, you wouldn’t be reading this article</p></br>
+        <p style="font-size: 20px">3. Tile cement is a premixed mortar that only requires the addition of water to 
+            create a thick, glue-like paste that is used to stick tiles to walls and floors.
+        </p><br/>
+        <p style="font-size: 20px">4. Mosaic tiles are small tiles that have been used to create decorative patterns for millennia. 
+            These days, mosaics are often supplied on a pre-made cloth backing, which makes applying them
+             much easier than it used to be!</br></p>
+        </article>
+    </div>
+
+    <div class="container">
+              <h2 align="center"> Flooring Fun Facts </br></h2>  
+              <article>
+                    <div class="row">
+                            <div class="col-sm-8"> <p style="font-size: 20px"> </br>1.The reference of the “red carpet” was first made 
+                                    in 458 B.C. by Aeschylus. It is still used today for mark formal walkways for leaders at important events.
+                                    </p></br>
+                                </div>
+                                    <div class="col-sm-4"> <img src="/static/img/redcarpet.jpg" 
+                                        class="float-right" style="margin-bottom: 2%" alt="Red Carpet">
+                                    </div>
+                                  </div>
+
+                <div class="container">
+                        <p style="font-size: 20px">2. In order to remove wax from a carpet, place a paper bag over the area and 
+                                use a hot iron to melt it. Then it will stick onto the brown paper bag.
+                            </p></br>
+                            <p style="font-size: 20px">3. A rug and a carpet are basically the same thing. The differentiating factor is the size. 
+                                A rug is any piece of carpet that is less than 40 square feet.
+                            </p></br>
+                            <p style="font-size: 20px">4. To remove red wine from a carpet, scrub the stain with club soda or cover the stain 
+                                with salt to let it absorb the wine. Vacuum the residue. If the stain remains,
+                                wipe with a solution of detergent, water, and a few drops of white vinegar.
+                                </p></br>
+                            <p style="font-size: 20px">5. To remove red wine from a carpet, scrub the stain with club soda or cover the stain 
+                                        with salt to let it absorb the wine. Vacuum the residue. If the stain remains,
+                                        wipe with a solution of detergent, water, and a few drops of white vinegar.
+                                </p></br>
+                         </article>
+                </div>
+                  
+                <div class="container">
+                    <h2 align="center">Paving Fun Facts </br></h2>
+                    <article>
+                        <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="/static/img/asphalt.jpg" class="float-left" style="margin-bottom: 2%" alt="Paving">
+                                </div>
+                                 <div class="col-sm-8"><p style="font-size: 20px"> </br> 1. Highways paved in asphalt can reduce noise levels by 3-5 decibels, compared to highways
+                                that have noise walls. Also, the smoother the pavement, the better fuel consumption a 
+                                vehicle will get.
+                           </p></br>
+                          </div> 
+                        </div>
+                         <p style="font-size: 20px">2. In the early 1800s, a Scottish man named John McAdam perfected the use of mixing sand
+                             and stone with tar to create a hard road surface. He’s also why asphalt is sometimes 
+                             called “macadam.”
+                           </p></br>
+                        <p style="font-size: 20px">3. Back in the early 1990s, it cost the asphalt industry billions of dollars to create the
+                             product and the output of emissions was pretty high. Today, however, we’ve found a way to
+                              make asphalt creation much cheaper and much better for the environment.
+                        </p></br>
+                        <p style="font-size: 20px">
+                            4. Asphalt pavement is a popular choice for driveways, parking lots, and roads alike.
+                               This is because it’s a durable and fairly affordable paving option for commercial 
+                               property owners. </br>
+                        </p>
+                </div>
+                
+        </article>
+    </div>
+</body>
+</html>
+
+{% endblock %}

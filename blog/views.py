@@ -10,4 +10,11 @@ def about_page(request):
 def service_page(request):
     return render(request, 'service.html', {})
 
+def contact_page(request):
+    return render(request, 'contact.html', {})
+    
+def blog_page(request):
+    return render(request, 'blogg.html', {})
+
+
 # Create your views here.
